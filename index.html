@@ -1,0 +1,220 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>EOSAngels</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Travelo  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Raleway:400,800,300,100,500,700,600,900' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+<!--animated-css-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!--/animated-css-->
+<!--script-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<script src="./js/customs.js"></script> 
+</head>
+<body>
+<!---->
+	<div class="banner-bg">
+		<video autoplay="autoplay" class="video-background" muted="muted" poster="wall_icons/my.jpg" width="100%"  loop>
+			<source src="vid.mp4" type="video/mp4" type="video/mp4">
+		</video>
+		<div class="banner">
+		 <div class="header">	 
+			 <div class="logo wow fadeInLeft" data-wow-delay="0.5s">
+			 <a href="index.html">
+				 <img src="./images/logo.png" alt="Logo">
+				 <img class="logo-text" src="./images/logoText.png" alt="Logo Text">
+				</a>
+			 </div>	
+			 <div class="top-menu">
+				<span class="menu"></span> 
+				<ul class="cl-effect-1">
+					
+				 </ul>
+			 </div>
+			 <div class="clearfix"></div>
+			 <!-- script-for-menu -->
+		 <script>
+			$( "span.menu" ).click(function() {
+			$( "ul.cl-effect-1" ).slideToggle( 300, function() {
+			// Animation complete.
+			});
+			});
+		</script>
+		 <!-- script-for-menu -->			 
+		 </div>
+
+		 
+		 <!-- CountDown Starts  -->
+		 <div class="countdown-time">
+			<div class="countdown" class="wow fadeInUp" data-wow-delay="1s">
+				<span class="pre-time-text">Left</span>
+				<span id="time" class="time-text"></span>
+				<span class="border"></span>
+				<span class="post-time-text">days</span>
+			</div>
+		 </div>
+		 <!-- CountDown Ends  -->
+
+
+		 <div class="booking-form">
+					<!---strat-date-piker---->
+					<link rel="stylesheet" href="css/jquery-ui.css" />
+					<script src="js/jquery-ui.js"></script>
+							  <script>
+									  $(function() {
+										$( "#datepicker,#datepicker1" ).datepicker();
+									  });
+							  </script>
+					<!---/End-date-piker---->
+					<link type="text/css" rel="stylesheet" href="css/JFGrid.css" />
+					<link type="text/css" rel="stylesheet" href="css/JFFormStyle-1.css" />
+					<script type="text/javascript" src="js/JFCore.js"></script>
+					<script type="text/javascript" src="js/JFForms.js"></script>
+					<!-- Set here the key for your domain in order to hide the watermark on the web server -->
+					<script type="text/javascript">
+						(function() {
+							JC.init({
+								domainKey: ''
+							});
+						})();
+					</script>
+					<div class="online_reservation">
+						<div class="b_room">
+							<div class="booking_room">
+								<div class="reservation">
+									<ul>		
+										<li class="span1_of_1 left">
+											<h5>Name</h5>
+											<div class="book_date">
+												<form>
+												<input type="text" placeholder="Type Your Name" required="">
+												</form>
+											</div>					
+										</li>
+										<li class="span1_of_1 left">
+											<h5>Age</h5>
+											<div class="book_date">
+											<form>
+											<input type="text" placeholder="Type Your Age" required="">
+											</form>
+											</div>		
+										</li>
+										<li class="span1_of_1 left">
+											<h5>Email</h5>
+											<div class="book_date">
+											<form>
+											<input type="email" placeholder="Type Your Email" required="">
+											</form>
+											</div>		
+										</li>
+										<li class="input-box">
+											<h5>Have you Ever Been a Block Producer (BP) for a Blockchain?</h5>
+											<!-- start section_room -->
+											<div class="section_room">
+													<select id="bp" onchange="change_country(this.value)" class="frm-field required">
+														<option value="yes">Yes</option>
+														<option value="no">No</option>         
+													</select>
+											</div>	
+										</li>
+										<li class="input-box">
+											<h5> Do you bring other Valuable Skills outside BP's most basic technical reqs?</h5>
+											<!-- start section_room -->
+											<div class="section_room">
+													<select id="skills" onchange="change_country(this.value)" class="frm-field required">
+														<option value="yes">Yes</option>
+														<option value="no">No</option>         
+													</select>
+											</div>	
+										</li>
+										<li class="input-box">
+											<h5> Why would you like to become a BP for EOS Angels DAC?</h5>
+											<!-- start section_room -->
+											<div class="section_room">
+													<textarea rows="4" cols="73"></textarea>
+											</div>	
+										</li>
+										<li class="input-box">
+											<h5> Why should you be accepted as an init BP?</h5>
+											<!-- start section_room -->
+											<div class="section_room">
+													<textarea rows="4" cols="73"></textarea>
+											</div>	
+										</li>
+										<li class="input-box">
+											<div class="date_btn">
+												<form>
+													<input type="submit" value="Send" />
+												</form>
+											</div>
+										</li>
+										<div class="clearfix"></div>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+			 <div class="clearfix"></div> 
+			 <div class="online-form">
+				<a class="play-icon popup-with-zoom-anim" href="#small-dialog2">Booking Here</a>
+			</div>
+			
+								<script>
+										$(document).ready(function() {
+										$('.popup-with-zoom-anim').magnificPopup({
+											type: 'inline',
+											fixedContentPos: false,
+											fixedBgPos: true,
+											overflowY: 'auto',
+											closeBtnInside: true,
+											preloader: false,
+											midClick: true,
+											removalDelay: 300,
+											mainClass: 'my-mfp-zoom-in'
+										});
+																										
+										});
+								</script>	
+		</div>
+	</div>
+<!---->
+
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!---->
+
+ </body>
+ </html>
