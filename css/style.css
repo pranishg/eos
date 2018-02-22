@@ -47,7 +47,9 @@ background-size:cover;
   left: 10%;
 }
 .header{
-padding:3em 0;
+  padding:3em 0;
+  display: flex;
+  justify-content: center;
 }
 .logo{
 float:left;
@@ -84,7 +86,7 @@ display:inline-block;
 }
 
 .logo a img {
-  width: 150px;
+  width: 250px;
 }
 
 .logo a .logo-text {
